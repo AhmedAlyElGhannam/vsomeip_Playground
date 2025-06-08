@@ -1,0 +1,33 @@
+{
+    "unicast" : "192.168.1.3",
+    "application" : 
+    [
+        {
+            "name" : "server",
+            "id" : "0x100"
+        }
+    ],
+    "services" : 
+    [
+        {
+            "service" : "0x0100",
+            "instance" : "0x8888",
+            "unreliable" : "30491"
+        }
+    ],
+    "routing" : "server",
+    "service-discovery" : 
+    {
+        "enable" : "true",
+        "multicast" : "224.224.224.102",
+        "port" : "36990",
+        "protocol" : "udp",
+        "initial_delay_min" : "10",
+        "initial_delay_max" : "100",
+        "repetitions_base_delay" : "200",
+        "repetitions_max" : "3",
+        "ttl" : "3",
+        "cyclic_offer_delay" : "2000",
+        "request_response_delay" : "1500"
+    }
+}

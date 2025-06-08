@@ -1,0 +1,17 @@
+{
+    "unicast" : "10.145.24.78",
+    "application" : 
+    [
+        {
+            "name" : "client",
+            "id" : "0x8627"
+        }
+    ],
+    "routing" : "server",
+    "service-discovery" : 
+    {
+        "enable" : "true",
+        "multicast" : "224.224.224.245",
+        "port" : "6942"
+    }
+}
